@@ -4,29 +4,19 @@
 - NodeJs + express + sequelize + mySQL
 
 Lien vers le deploiement sur Github pages : https://vnaxel.github.io/p7_groupomania_deployment
-(le backend est hébergé sur un serveur cloud IONOS)
+(le backend est hébergé sur un serveur cloud)
 
 Pour lancer le projet en local il faut cloner ce repository
 
 puis
 
-## Backend
-
-Ouvrir le dossier "back" dans un terminal de votre éditeur puis exécuter la commande:
-
-    npm install
-
-puis
-
-    nodemon serve
-
 ## Base de données
 
 Vous devez avoir mySQL installé sur votre ordinateur
 
-Allez dans le dossier back>config et ouvrez le fichier config.JSON,
+Allez dans le dossier back>config et ouvrez le fichier config.json,
 
-renseignez-y votre nom d'utilisateur mySQL + votre mot de passe.
+renseignez-y nom d'utilisateur mySQL + mot de passe.
 
 puis
 
@@ -37,6 +27,16 @@ Ouvrir le dossier "back" dans le terminal de votre éditeur puis exécuter la co
 puis
 
     sequelize db:migrate
+
+## Backend
+
+Ouvrir le dossier "back" dans un terminal de votre éditeur puis exécuter la commande:
+
+    npm install
+
+puis
+
+    nodemon server
 
 ## Frontend
 
